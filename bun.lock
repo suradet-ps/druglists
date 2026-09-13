@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "sabot-drug-lists",
+      "name": "druglists",
       "dependencies": {
         "@supabase/supabase-js": "^2.56.1",
         "@tailwindcss/vite": "^4.1.17",

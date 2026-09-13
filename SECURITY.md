@@ -11,7 +11,7 @@ We recommend always using the latest deployed version of the application to ensu
 
 ## Reporting a Vulnerability
 
-We take the security of the **Sabot Drug Lists** project very seriously, as it deals with hospital hospital data and internal workflows.
+We take the security of the **DrugLists** project very seriously, as it deals with hospital hospital data and internal workflows.
 
 If you discover a security vulnerability within this project, please follow these steps:
 
@@ -24,4 +24,4 @@ If you discover a security vulnerability within this project, please follow thes
 
 We will acknowledge receipt of your vulnerability report as soon as possible and will strive to send you regular updates about our progress in resolving it. Once the issue is confirmed and resolved, we will release a patch immediately.
 
-Thank you for helping us keep Sabot Drug Lists secure
+Thank you for helping us keep DrugLists secure

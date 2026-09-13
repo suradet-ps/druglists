@@ -1,6 +1,6 @@
-# Contributing to Sabot Drug Lists
+# Contributing to DrugLists
 
-First off, thank you for considering contributing to Sabot Drug Lists! We appreciate your time and effort in helping to improve this project.
+First off, thank you for considering contributing to DrugLists! We appreciate your time and effort in helping to improve this project.
 
 ## How Can I Contribute?
 
@@ -20,8 +20,8 @@ We gladly accept pull requests! If you're ready to contribute code, please follo
 2. **Clone your fork** locally:
 
    ```bash
-   git clone https://github.com/suradet-ps/sabot-drug-lists.git
-   cd sabot-drug-lists
+   git clone https://github.com/suradet-ps/druglists.git
+   cd druglists
    ```
 
 3. **Create a new branch** for your feature or bug fix:

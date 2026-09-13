@@ -29,7 +29,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to, _from, next) => {
-  document.title = to.meta.title ? `${to.meta.title} | DrugList` : 'DrugList';
+  document.title = to.meta.title ? `${to.meta.title} | DrugLists` : 'DrugLists';
   next();
 });
 

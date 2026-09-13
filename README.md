@@ -1,12 +1,12 @@
-# Sabot Drug Lists
+# DrugLists
 
 ```
-██████╗ ██████╗ ██╗   ██╗ ██████╗██╗     ██╗ ██████╗████████╗ ██████╗
-██╔══██╗██╔══██╗██║   ██║██╔════╝██║     ██║██╔════╝╚══██╔══╝██╔════╝
+██████╗ ██████╗ ██╗   ██╗ ██████╗ ██╗     ██╗███████╗████████╗███████╗
+██╔══██╗██╔══██╗██║   ██║██╔════╝ ██║     ██║██╔════╝╚══██╔══╝██╔════╝
 ██║  ██║██████╔╝██║   ██║██║  ███╗██║     ██║███████╗   ██║   ███████╗
 ██║  ██║██╔══██╗██║   ██║██║   ██║██║     ██║╚════██║   ██║   ╚════██║
-██████╔╝██║  ██║╚██████╔╝╚██████╔╝███████╗██║██████╔╝   ██║   ██████╔╝
-╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝╚══════╝╚═╝╚═════╝   ╚═╝╚═════╝
+██████╔╝██║  ██║╚██████╔╝╚██████╔╝███████╗██║███████║   ██║   ███████║
+╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚══════╝╚═╝╚══════╝   ╚═╝   ╚══════╝
 ```
 
 ---
@@ -15,16 +15,16 @@
 
 A hospital formulary is a promise written in drug codes: what this
 hospital stands behind, at what price, and whether it is still
-dispensed. Sabot Drug Lists is the PWA that keeps that promise alive -
+dispensed. DrugLists is the PWA that keeps that promise alive -
 view, search, add, edit, decommission with justification, recommission,
 and audit every change. Administrators hold the pen, viewers hold the
 list, and the changelog holds everyone accountable. Installable,
 offline-capable, searchable at the speed of typing.
 
 | Lifecycle ▣ | Roles ▣ | Audit ▣ | PWA ▣ |
-|---|---|---|---|
+| ----------- | ------- | ------- | ----- |
 
-*The formulary loop - manage, justify, audit, restore - is sealed.*
+_The formulary loop - manage, justify, audit, restore - is sealed._
 
 > Built with Vue 3 + Pinia + Tailwind 4, backed by Supabase, shipped
 > as an installable PWA to Vercel.
@@ -38,8 +38,8 @@ offline-capable, searchable at the speed of typing.
 One runtime, four commands.
 
 ```
-⟫ git clone https://github.com/suradet-ps/sabot-drug-lists.git
-⟫ cd sabot-drug-lists
+⟫ git clone https://github.com/suradet-ps/druglists.git
+⟫ cd druglists
 ⟫ bun install
 ⟫ cp .env
 ⟫ bun run dev

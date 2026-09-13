@@ -12,7 +12,7 @@ export default defineConfig({
       includeAssets: ['favicon.ico', 'apple-touch-icon.png'],
       manifest: {
         name: 'บัญชียาโรงพยาบาลสระโบสถ์',
-        short_name: 'Sabot DrugList',
+        short_name: 'DrugLists',
         description: 'ระบบจัดการบัญชียาโรงพยาบาลสระโบสถ์',
         theme_color: '#3b82f6',
         background_color: '#f8fafc',
