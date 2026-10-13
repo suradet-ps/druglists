@@ -5,6 +5,12 @@ export default antfu({
   vue: true,
   typescript: true,
   formatters: true,
+  ignores: [
+    // GitHub metadata (issue templates, workflows) is not app code and
+    // cannot satisfy app lint rules such as unicorn/filename-case:
+    // GitHub requires the directory name .github/ISSUE_TEMPLATE exactly.
+    '.github/**',
+  ],
   stylistic: {
     indent: 2,
     semi: true,
