@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest an idea or improvement
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Please describe the problem before the solution.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is hard, missing, or slow today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Project constraints
+      options:
+        - label: Every mutation still lands in drug_changelog with its actor and timestamp.
+          required: true
+        - label: Decommissioning still requires a justification.
+          required: true
+        - label: Viewers stay read-only and Row-Level Security stays on.
+          required: true
+        - label: Server-side pagination and instant search stay responsive at full formulary size.
+          required: true
+        - label: No secrets or service-role keys in the client bundle.
+          required: true

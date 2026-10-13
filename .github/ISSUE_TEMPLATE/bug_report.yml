@@ -1,0 +1,130 @@
+name: Bug report
+description: Something is not working as it should
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make DrugLists better. Please fill in the fields below.
+
+        A wrong price on the list or a drug that vanishes without a changelog
+        entry is an audit and dispensing problem. If that is what you hit, say
+        so up front.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: A short, clear description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Search ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the error message shown in the app, if any.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area affected
+      description: Which part of the app is involved?
+      options:
+        - Formulary list and search
+        - Drug form (create or edit)
+        - Decommission and recommission
+        - CSV import
+        - Activity and changelog
+        - Authentication and roles
+        - PWA install or offline
+        - Dashboard statistics
+        - Other
+    validations:
+      required: false
+  - type: input
+    id: drug
+    attributes:
+      label: Drug involved
+      description: If a specific drug is involved, provide its code or name.
+      placeholder: "e.g. 1000123 or พาราเซตามอล"
+    validations:
+      required: false
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role
+      description: Which role were you signed in as?
+      options:
+        - Administrator
+        - Viewer
+        - Not applicable
+    validations:
+      required: true
+  - type: dropdown
+    id: pwa
+    attributes:
+      label: How are you using the app?
+      description: Installed PWAs behave differently from browser tabs, especially offline.
+      options:
+        - Installed PWA
+        - Browser tab
+        - Not sure
+    validations:
+      required: false
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Edge
+        - Firefox
+        - Safari
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - iOS
+        - Android
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version / deployment
+      description: The commit, Vercel deployment, or approximate date you were using.
+      placeholder: "e.g. a1b2c3d or 2026-10-13"
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots, console output, or extra context
+      description: Paste relevant screenshots or browser console output. Never paste Supabase keys (anon or service-role) or hospital credentials, and redact anything not needed to understand the bug.
+      render: text
+    validations:
+      required: false

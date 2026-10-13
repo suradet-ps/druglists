@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contribution guide
+    url: https://github.com/suradet-ps/druglists/blob/main/CONTRIBUTING.md
+    about: How to report bugs, suggest enhancements, and open pull requests
+  - name: Development setup
+    url: https://github.com/suradet-ps/druglists/blob/main/README.md
+    about: Local setup (bun install / bun run dev), Supabase schema, and the PWA artifact
+  - name: Report a security vulnerability
+    url: https://github.com/suradet-ps/druglists/blob/main/SECURITY.md
+    about: Do NOT open a public issue for vulnerabilities, report them privately instead
